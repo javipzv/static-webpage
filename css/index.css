@@ -50,3 +50,8 @@ background: linear-gradient(45deg, rgba(255,67,67,.5) 0%, rgba(255,255,255,1) 50
 .zoom-item:hover{
     transform: scale(1.2);
 }
+
+.non-color{
+    color: inherit;
+    text-decoration: none;
+}

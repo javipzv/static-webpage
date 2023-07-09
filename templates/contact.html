@@ -28,11 +28,37 @@
         </div>
     </nav>
 
-    <hr class="hr-line"/>
-
-    <div style="height: 500px;" class="container-lg container-md px-5 py-5 text-center bg-white">
-        <h2>X</h2>
+    <div class="container mt-5 contact-container">
+        <div class="px-4 pt-4">
+            <label for="name" class="form-label"><b>Nombre:</b></label>
+            <input type="text" class="input-group">
+        </div>
+        <div class="px-4 pt-4">
+            <label for="surnames" class="form-label"><b>Apellidos:</b></label>
+            <input type="text" class="input-group">
+        </div>
+        <div class="px-4 pt-4">
+            <label for="subject" class="form-label"><b>Tema:</b></label>
+            <input type="text" class="input-group">
+        </div>
+        <div class="px-4 pt-4">
+            <label for="message" class="form-label"><b>Mensaje:</b></label>
+            <textarea id="message" class="input-group" rows="6"></textarea>
+        </div>
+        <div class="text-center">
+            <button class="btn btn-primary btn-sucess">
+                <b>Enviar</b>
+            </button>
+        </div>
     </div>
+
+    <footer class="fixed-bottom bg-dark text-center">
+        <div class="text-center text-white p-3">
+            <a class="non-color" href="/templates/contact.html">
+                Javier Pérez Vargas
+            </a>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 <footer></footer>

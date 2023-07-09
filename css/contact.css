@@ -10,3 +10,13 @@
     border: 10px solid rgb(1, 47, 75);
     margin: 0px;
 }
+
+.contact-container{
+    height: 680px;
+    background-color: white;
+}
+
+.non-color{
+    color: inherit;
+    text-decoration: none;
+}
