@@ -1,0 +1,52 @@
+.text-justify{
+    text-align: justify;
+}
+
+.bg-main{
+    background-color: rgb(1, 47, 75);
+}
+
+.bg-intro{
+    background-color: rgb(101, 173, 214);
+}
+
+.hr-line {
+    border: 10px solid rgb(1, 47, 75);
+    margin: 0px;
+}
+
+.bg-gal{
+    background: rgba(45,156,217);
+    background: linear-gradient(45deg, rgba(45,156,217,.78) 0%, rgba(255,255,255) 50%, rgba(45,156,217,.8) 100%);
+}
+
+.bg-ast{
+    background: rgb(45,156,217);
+    background: linear-gradient(45deg, rgba(45,156,217,.7) 0%, rgba(245,255,140,.9) 50%, rgba(45,156,217,.7) 100%);
+}
+
+.bg-cant{
+    background: rgb(255,67,67);
+background: linear-gradient(45deg, rgba(255,67,67,.5) 0%, rgba(255,255,255,1) 50%, rgba(255,67,67,.5) 100%);
+}
+
+.bg-pv{
+    background: rgb(199,10,10);
+    background: linear-gradient(45deg, rgba(230, 51, 51, 0.6) 0%, rgba(142, 97, 97, 0.7) 25%, rgba(41, 222, 107, 0.6) 50%, rgba(146,194,163,1) 75%, rgba(255,255,255,1) 100%);   
+}
+
+.zoom-item{
+    transition: transform 0.3s;
+}
+  
+.zoom-div{
+    transition: transform 0.3s;
+}
+
+.zoom-div:hover{
+    transform: scale(1.02)
+}
+
+.zoom-item:hover{
+    transform: scale(1.2);
+}

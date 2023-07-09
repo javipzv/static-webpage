@@ -1,0 +1,12 @@
+.text-justify{
+    text-align: justify;
+}
+
+.bg-main{
+    background-color: rgb(1, 47, 75);
+}
+
+.hr-line {
+    border: 10px solid rgb(1, 47, 75);
+    margin: 0px;
+}
