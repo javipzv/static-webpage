@@ -29,27 +29,29 @@
     </nav>
 
     <div class="container mt-5 contact-container">
-        <div class="px-4 pt-4">
-            <label for="name" class="form-label"><b>Nombre:</b></label>
-            <input type="text" class="input-group">
-        </div>
-        <div class="px-4 pt-4">
-            <label for="surnames" class="form-label"><b>Apellidos:</b></label>
-            <input type="text" class="input-group">
-        </div>
-        <div class="px-4 pt-4">
-            <label for="subject" class="form-label"><b>Tema:</b></label>
-            <input type="text" class="input-group">
-        </div>
-        <div class="px-4 pt-4">
-            <label for="message" class="form-label"><b>Mensaje:</b></label>
-            <textarea id="message" class="input-group" rows="6"></textarea>
-        </div>
-        <div class="text-center">
-            <button class="btn btn-primary btn-sucess">
-                <b>Enviar</b>
-            </button>
-        </div>
+        <form>
+            <div class="px-4 pt-4">
+                <label for="name" class="form-label"><b>Nombre:</b></label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="px-4 pt-4">
+                <label for="surnames" class="form-label"><b>Apellidos:</b></label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="px-4 pt-4">
+                <label for="subject" class="form-label"><b>Tema:</b></label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="px-4 pt-4">
+                <label for="message" class="form-label"><b>Mensaje:</b></label>
+                <textarea id="message" class="form-control" rows="6"></textarea>
+            </div>
+            <div class="container text-center btn-bottom">
+                <button class="btn btn-primary btn-sucess w-25">
+                    <b>Enviar</b>
+                </button>
+            </div>
+        </form>
     </div>
 
     <footer class="fixed-bottom bg-dark text-center">
