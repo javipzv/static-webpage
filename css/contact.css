@@ -13,9 +13,10 @@
 
 .contact-container{
     height: 680px;
-    background-color: white;
+    background-color: rgb(187, 187, 187);
     position: relative;
     padding-bottom: 50px;
+    border-radius: 3px;
 }
 
 .btn-bottom{
