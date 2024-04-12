@@ -18,14 +18,14 @@
 
 .flip-card-front, .flip-card-back {
 	position: absolute;
-	background-color: #2980b9;
+	/* background-color: #2980b9; */
 	width: 100%;
 	height: 100%;
 	backface-visibility: hidden;
 }
 
 .flip-card-back {
-	background-color: #bbc6ce;
+	/* background-color: #bbc6ce; */
 	color: rgb(0, 0, 0);
 	transform: rotateY(180deg);
 }
@@ -34,7 +34,7 @@
 
 .flip-card-md {
 	width: 400px;
-	height: 520px;
+	height: 560px;
 }
 
 .flip-card-inner {
@@ -52,14 +52,14 @@
 
 .flip-card-front, .flip-card-back {
 	position: absolute;
-	background-color: #2980b9;
+	/* background-color: #2980b9; */
 	width: 100%;
 	height: 100%;
 	backface-visibility: hidden;
 }
 
 .flip-card-back {
-	background-color: #bbc6ce;
+	/* background-color: #bbc6ce; */
 	color: rgb(0, 0, 0);
 	transform: rotateY(180deg);
 }
